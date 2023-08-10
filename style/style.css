@@ -7,7 +7,6 @@ body{
 }
 
 .header-section,.info-section{
-	color: white; /* not the right color */
 	display: flex;
 	margin: 0;
 	background-color: #1f2937;
@@ -88,4 +87,37 @@ button{
 
 button a{
   color: white;
+}
+
+.images-section{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+  padding: 25px 150px;
+  text-align: center;
+}
+
+.images-section-title{
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: bolder;
+}
+
+.images{
+  padding-top: 15px;
+	display: flex;
+  flex-wrap: wrap;
+}
+
+.images img{
+  border: 5px #3882f6 solid;
+  border-radius: 10px;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 15px;
+}
+
+.img-text{
+  width: 250px;
 }
