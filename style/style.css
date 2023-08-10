@@ -44,3 +44,48 @@ ul li{
 	font-size: 18px;
 	color: #e5e7eb;
 }
+
+.info-section{
+	display: flex;
+	align-items: center;
+  padding: 80px 150px;;
+}
+
+.info-section img{
+	width: 500px;
+  height: 300px;
+}
+
+.info-container{
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 300px;
+  justify-content: space-evenly;
+}
+
+.info-container .info-title{
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: bolder;
+}
+
+.info-container .info-paragraph{
+  font-size: 18px;
+  color: #e5e7eb;
+  padding-bottom: 7px;
+}
+
+button{
+  font-size: large;
+  font-weight: bold;
+  width: 100px;
+  height: 35px;
+  border-radius: 5px;
+  background-color: #3882f6;
+  border: 0px;
+}
+
+button a{
+  color: white;
+}
