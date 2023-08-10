@@ -121,3 +121,19 @@ button a{
 .img-text{
   width: 250px;
 }
+
+.quote-section{
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  color: #1f2937;
+  font-size: 36px;
+  justify-content: center;
+  align-items: center;
+  padding: 150px;
+}
+
+.author{
+  font-weight: bold;
+  align-self: flex-end;
+}
