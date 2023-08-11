@@ -50,9 +50,12 @@ ul li{
   padding: 80px 150px;;
 }
 
-.info-section img{
+.website-img{
+  margin-left: 20px;
+  border-radius: 10px;
 	width: 500px;
   height: 300px;
+  border: 5px solid#e5e7eb;
 }
 
 .info-container{
