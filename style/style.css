@@ -119,6 +119,7 @@ button a{
 }
 
 .img-text{
+  font-weight: 600;
   width: 250px;
 }
 
@@ -136,4 +137,36 @@ button a{
 .author{
   font-weight: bold;
   align-self: flex-end;
+}
+
+.signup-section{
+  padding: 70px 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-box{
+  padding: 50px 100px;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3882f6;
+}
+
+.signup-button{
+  border: 2px solid #f9faf8;
+}
+
+.signup-line-one{
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.signup-line-two{
+  color: #f9faf8;
 }
