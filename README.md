@@ -1,5 +1,7 @@
 # Landing Page
 
+![Website UI](readme_images/ui.jpeg)
+
 A simple website landing page, presented as a project within The Odin Project web development curriculum.
 
 In this project I will apply some of the CSS skills I have learned.
